@@ -25,7 +25,7 @@ SECRET_KEY = '-8+7^s1=wne3j!_qd@&&0p2!9ugb07^&@+wl)+7&_%dtu#^6+c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangoblogapp07.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['djangoblogapp07.herokuapp.com','127.0.0.1','0.0.0.0']
 
 
 # Application definition
@@ -120,7 +120,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_ROOT =os.path.join(BASE_DIR,'staticfiles')
+STATIC_ROOT =os.path.join(BASE_DIR,'static')
 STATIC_URL = '/static/'
 CRISPY_TEMPLATE_PACK='bootstrap4'
 
